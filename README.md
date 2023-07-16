@@ -62,6 +62,11 @@ code. The following are recognized:
   frame. That is, don't present it to the screen. This can be useful for
   benchmarking.
 
+### Running
+
+The code expects a 320x240 screen, and it expects to operate at a higher speed
+than the default. Use the provided `lc32sim.json`.
+
 ## Testing
 
 A test harness is provided to validate the Cinepak decoder. It runs on the host,
