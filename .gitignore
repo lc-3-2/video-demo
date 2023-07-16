@@ -1,0 +1,13 @@
+# Ignore build files
+video-demo.elf
+*.o
+
+# Ignore generated files
+video.c
+
+# Ignore data and test files
+video/
+test-out/
+
+# Ignore IDE files
+.vscode/

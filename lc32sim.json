@@ -1,0 +1,28 @@
+{
+  "log_level": "INFO",
+  "display": {
+      "width": 320,
+      "height": 240,
+      "vblank_length": 68,
+      "instructions_per_scanline": 1000,
+      "frames_per_second": 60.0,
+      "accelerated_rendering": true
+  },
+  "memory": {
+      "allow_unaligned_access": false,
+      "size": 4294967296,
+      "simulator_page_size": 4096
+  },
+  "keybinds": {
+      "a": "A",
+      "b": "B",
+      "select": "Backspace",
+      "start": "Return",
+      "right": "Right",
+      "left": "Left",
+      "up": "Up",
+      "down": "Down",
+      "r": "R",
+      "l": "L"
+  }
+}
