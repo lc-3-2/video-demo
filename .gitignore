@@ -3,6 +3,7 @@ video-demo.elf
 *.o
 
 # Ignore generated files
+video.cvid
 video.c
 
 # Ignore data and test files
