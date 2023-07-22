@@ -15,7 +15,6 @@ ASFLAGS = --arch=lc-3.2 --filetype=obj
 CFLAGS = \
 	$(CDEFS) \
 	--target=lc_3.2 -g -O2 -Wall -Wextra \
-	-mllvm -lc_3.2-use-libcall-for-cmp \
 	-mllvm -lc_3.2-use-r4 -mllvm -lc_3.2-use-r7 \
 	-mllvm -verify-machineinstrs
 LDFLAGS = -nostdlib -Wl,--gc-sections
